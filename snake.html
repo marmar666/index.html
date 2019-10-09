@@ -10,7 +10,7 @@
 
 <body>
     <div id="scorbox" style="width: 200px; height: 200px; font-size:40px; position: absolute; color:white;">0</div>
-    <canvas id="gc" height="600" width="1200"></canvas>
+    <canvas id="gc" height="700" width="1300"></canvas>
     <script>
         //canvas setup
         canv = document.getElementById("gc");
@@ -21,7 +21,7 @@
         //event listener
         document.addEventListener("keydown", keyPush);
         //Framerate
-        setInterval(game, 1000 / 10);
+        setInterval(game, 1000 / 20);
         //position vars
         var pos_x = 10;
         var pos_y = 10;
